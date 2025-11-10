@@ -1,0 +1,105 @@
+body, html {
+     2     margin: 0;
+     3     padding: 0;
+     4     font-family: 'Poppins', sans-serif;
+     5     color: white;
+     6     background: linear-gradient(to bottom, #4f46e5, #149b9b);
+     7     height: 100vh;
+     8     overflow: hidden;
+     9 }
+    10
+    11 header {
+    12     display: flex;
+    13     justify-content: space-between;
+    14     align-items: center;
+    15     padding: 20px 50px;
+    16 }
+    17
+    18 .logo {
+    19     font-size: 28px;
+    20     font-weight: bold;
+    21 }
+    22
+    23 nav ul {
+    24     list-style: none;
+    25     display: flex;
+    26     margin: 0;
+    27     padding: 0;
+    28 }
+    29
+    30 nav ul li {
+    31     margin: 0 20px;
+    32 }
+    33
+    34 nav ul li a {
+    35     color: white;
+    36     text-decoration: none;
+    37     font-size: 16px;
+    38     font-weight: 500;
+    39 }
+    40
+    41 .auth-buttons .btn-signup {
+    42     background-color: #8b5cf6;
+    43     color: white;
+    44     border: none;
+    45     padding: 10px 20px;
+    46     border-radius: 5px;
+    47     font-weight: bold;
+    48     cursor: pointer;
+    49     margin-right: 10px;
+    50 }
+    51
+    52 .auth-buttons .btn-login {
+    53     background-color: white;
+    54     color: #333;
+    55     border: none;
+    56     padding: 10px 20px;
+    57     border-radius: 5px;
+    58     font-weight: bold;
+    59     cursor: pointer;
+    60 }
+    61
+    62 main {
+    63     display: flex;
+    64     justify-content: center;
+    65     align-items: center;
+    66     text-align: center;
+    67     height: calc(100vh - 100px); /* Adjust based on header height */
+    68 }
+    69
+    70 .main-content h1 {
+    71     font-size: 80px;
+    72     font-weight: 700;
+    73     margin: 0;
+    74     line-height: 1.1;
+    75 }
+    76
+    77 .main-content p {
+    78     font-size: 20px;
+    79     margin: 30px 0;
+    80     font-weight: 400;
+    81     line-height: 1.5;
+    82 }
+    83
+    84 .action-buttons .btn-start {
+    85     background-color: white;
+    86     color: #333;
+    87     border: none;
+    88     padding: 15px 30px;
+    89     border-radius: 5px;
+    90     font-size: 16px;
+    91     font-weight: bold;
+    92     cursor: pointer;
+    93     margin-right: 20px;
+    94 }
+    95
+    96 .action-buttons .btn-explore {
+    97     background-color: rgba(0, 0, 0, 0.2);
+    98     color: white;
+    99     border: 1px solid white;
+   100     padding: 15px 30px;
+   101     border-radius: 5px;
+   102     font-size: 16px;
+   103     font-weight: bold;
+   104     cursor: pointer;
+   105 }
