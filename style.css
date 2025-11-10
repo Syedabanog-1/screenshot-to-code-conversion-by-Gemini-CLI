@@ -1,134 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background: linear-gradient(to bottom, #7B2CBF, #00D9FF);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    text-align: center;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  background: linear-gradient(to bottom right, #7a5cf4, #38c6d1);
+  text-align: center;
 }
 
 header {
-    width: 100%;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 4rem;
+  font-weight: 500;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+header .logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
 }
 
-nav {
-    display: flex;
-    gap: 30px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.auth-buttons {
-    display: flex;
-    gap: 15px;
+header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
 }
 
 .auth-buttons button {
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
 }
 
-.auth-buttons .signup {
-    background-color: white;
-    color: #7B2CBF;
+.signup {
+  background: #a78bfa;
+  color: white;
+}
+
+.login {
+  background: white;
+  color: black;
 }
 
 main {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  margin-top: 7rem;
 }
 
 h1 {
-    font-size: 72px;
-    font-weight: 700;
-    margin: 0 0 20px;
-    max-width: 800px;
+  font-size: 5rem;
+  font-weight: 300; /* Lighter weight */
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+h1 span {
+  display: block;
+  font-size: 5.5rem;
+  font-weight: 300; /* Matching thinner style */
 }
 
 p {
-    font-size: 20px;
-    max-width: 600px;
-    margin: 0 0 40px;
-    line-height: 1.6;
-}
-
-.cta-buttons {
-    display: flex;
-    gap: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
 }
 
 .cta-buttons button {
-    padding: 15px 30px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 500;
+  margin: 0.5rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.cta-buttons .start-designing {
-    background-color: white;
-    color: #7B2CBF;
+.start-designing {
+  background-color: #ffffff;
+  color: #000;
 }
 
-.cta-buttons .explore-launches {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
-    border: 1px solid white;
-}
-
-footer {
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.decorative-elements {
-    /* Placeholder for decorative elements */
-    height: 50px;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 48px;
-    }
-    p {
-        font-size: 16px;
-    }
-    nav {
-        display: none;
-    }
+.explore-launches {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
